@@ -1,21 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod
-spec: # Moved to the left to align with metadata
+  name: nextjs-pod
+spec: 
   containers:
-    - name: nginx-container
-      image: nginx:latest
-      ports:
-        - containerPort: 80
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: httpd-pod
-spec: # Moved to the left to align with metadata
-  containers:
-    - name: httpd-container
-      image: httpd:latest
+    - name: Custom-nextjs
+      image: rahulsamcode/argo-app:bc16223c65a7665ca6134cfccc13b165d12b518a
       ports:
         - containerPort: 80
