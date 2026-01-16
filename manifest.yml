@@ -5,6 +5,6 @@ metadata:
 spec: 
   containers:
     - name: custom-nextjs
-      image: rahulsamcode/argo-app:bc16223c65a7665ca6134cfccc13b165d12b518a
+      image: rahulsamcode/argo-app:8e31274b1aef0e5f2f1f327a9d05ba276be3b8f8
       ports:
         - containerPort: 80
