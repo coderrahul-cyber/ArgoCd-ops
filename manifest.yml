@@ -4,7 +4,7 @@ metadata:
   name: nextjs-pod
 spec: 
   containers:
-    - name: Custom-nextjs
+    - name: custom-nextjs
       image: rahulsamcode/argo-app:bc16223c65a7665ca6134cfccc13b165d12b518a
       ports:
         - containerPort: 80
